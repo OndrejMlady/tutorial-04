@@ -27,7 +27,7 @@ function App() {
           // not in the 200 response range
           console.log(err.response.data);
           console.log(err.response.status);
-          console.log(err.response.headers); //make check if it is needed
+          console.log(err.response.headers); //check if it is needed
         } else {
           console.log(`Error: ${err.message}`);
         }
