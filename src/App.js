@@ -64,7 +64,6 @@ function App() {
     }
   };
 
-
   const handleDelete = async (id) => {
     try {
       await api.delete(`/posts/${id}`);

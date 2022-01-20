@@ -1,3 +1,10 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": 1,
+      "title": "Test Post",
+      "datetime": "January 19, 2022 4:21:08 PM",
+      "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam sed tellus id magna elementum tincidunt. Praesent dapibus. Praesent in mauris eu tortor porttitor accumsan. Fusce suscipit libero eget elit. Vestibulum fermentum tortor id mi. Ut tempus purus at lorem. Etiam ligula pede, sagittis quis, interdum ultricies, scelerisque eu. Suspendisse sagittis ultrices augue. Praesent vitae arcu tempor neque lacinia pretium. Maecenas sollicitudin. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede. Phasellus rhoncus. Nunc dapibus tortor vel mi dapibus sollicitudin. Pellentesque arcu. Suspendisse sagittis ultrices augue."
+    }
+  ]
 }
