@@ -1,9 +1,13 @@
 import React from "react";
+import { FaMobileAlt, FaTabletAlt, FaLaptop } from "react-icons/fa"; 
 
-const Footer = () => {
+const Footer = ({ width }) => {
   return (
     <footer>
-      <h1>Footer </h1>
+            {width < 768 ? <FaMobileAlt className="iconStyles"/>
+        : width < 992 ? <FaTabletAlt className="iconStyles"/>
+          : <FaLaptop className="iconStyles"/> 
+      }
     </footer>
   );
 };

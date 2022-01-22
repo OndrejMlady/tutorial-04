@@ -2,11 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-const Nav = ({ search, setSearch, title, width }) => {
+const Nav = ({ search, setSearch, title, }) => {
   return (
     <nav className="Nav">
       <h1 className="H1"><Link className="H1" to="/">{title}</Link></h1>
-
       
       <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
         <label htmlFor="search">Search Post</label>
@@ -33,12 +32,3 @@ const Nav = ({ search, setSearch, title, width }) => {
   )
 }
 export default Nav;
-
-
-      /*
-
-      find the way how to implement that or make it better
-      import { FaMobileAlt, FaLaptop, FaTabletAlt} from 'react-icons/fa'
-      {width < 768 ? <FaMobileAlt />
-        : width < 992 ? <FaTabletAlt />
-          : ? <FaLaptop /> } */

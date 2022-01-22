@@ -14,7 +14,7 @@ const Layout = ({ search, setSearch }) => {
         width={width}
       />
       <Outlet />
-      <Footer />
+      <Footer width={width}/>
     </div>
   );
 };

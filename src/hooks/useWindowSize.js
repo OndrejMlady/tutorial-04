@@ -29,4 +29,4 @@ const useWindowSize = () => {
   return windowSize; // custom useWindowSize (custom Hook)
 };
 
-export default useWindowSize //never forget booooy! :D 
+export default useWindowSize //never forget it man! :D 
