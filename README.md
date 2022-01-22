@@ -1,3 +1,9 @@
+# Add post
+
+For add post you have to start server by command 
+npx json-server -p 3500 -w data/db.json
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
