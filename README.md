@@ -1,6 +1,10 @@
 # Add post
 
 For add post you have to start server by command 
+
+### `add post`
+
+
 npx json-server -p 3500 -w data/db.json
 
 
